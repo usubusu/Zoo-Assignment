@@ -51,17 +51,17 @@ namespace Zoo_Simulator
             {
                 animals.Add(animal);
                 docileStatus = animal.docile;
-                Console.WriteLine("Succesfully added " + animal + " to the cage. Now there are " + animals.Count + " animals in the cage.");
+                Console.WriteLine("Succesfully added " + animal + " to " + cageName + ". Now there are " + animals.Count + " animals in the cage.");
             }
             else if (animal.docile && docileStatus)
             {
                 animals.Add(animal);
-                Console.WriteLine("Succesfully added " + animal + " to the cage. Now there are " + animals.Count + " animals in the cage.");
+                Console.WriteLine("Succesfully added " + animal + " to " + cageName + ". Now there are " + animals.Count + " animals in the cage.");
             }
             else if (!animal.docile && !docileStatus)
             {
                 animals.Add(animal);
-                Console.WriteLine("Succesfully added " + animal + " to the cage. Now there are " + animals.Count + " animals in the cage.");
+                Console.WriteLine("Succesfully added " + animal + " to " + cageName + ". Now there are " + animals.Count + " animals in the cage.");
             }
             else
             {

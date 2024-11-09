@@ -27,6 +27,7 @@ namespace Zoo_Simulator
             name = possibleNames[rng.Next(0, 11)];
             hunger = rng.Next(20, 100);
             SetDiet();
+            Program.allAnimals.Add(this);
         }
         public string GetName()
         {
