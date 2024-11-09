@@ -13,19 +13,16 @@ namespace Zoo_Simulator
     {
         static void Main(string[] args)
         {
-            Capybara capy = new Capybara();
-            capy.GetName();
-            capy.GetHunger();
-            capy.CalculateMood();
-            Console.Write("eats: ");
-            foreach (Food food in capy.foods)
-            {
-                Console.Write(food + " ");
-            }
+            AnimalPen cage1 = new AnimalPen("cage1");
+            cage1.AddAnimal(new Worm());
+            cage1.AddAnimal(new Capybara());
+            cage1.AddAnimal(new Velociraptor());
+            cage1.AddAnimal(new Worm());
+            cage1.AddAnimal(new Velociraptor());
+            cage1.GetAnimals();
 
-            Console.WriteLine(); Console.WriteLine();
-            capy.UpdateHunger();
-            Console.WriteLine();
+            ZooKeeper keeper1 = new ZooKeeper();
+            keeper1.FeedCage(Food.Nuts, cage1);
 
 
 

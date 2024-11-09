@@ -6,19 +6,23 @@ using System.Threading.Tasks;
 
 namespace Zoo_Simulator
 {
-    internal class Capybara : Animal
+    internal class Velociraptor : Animal
     {
-        public Capybara()
+        public Velociraptor()
         {
             GenerateAnimal();
-            type = "Capybara";
-            docile = true;
+            type = "Velociraptor";
+            docile = false;
         }
         public override void SetDiet()
         {
+            foods.Add(Food.Meat);
             foods.Add(Food.Orange);
-            foods.Add(Food.Apple);
-            if (rng.Next (0,2) == 0)
+            if (rng.Next(0, 2) == 0)
+            {
+                foods.Add(Food.Leaves);
+            }
+            if (rng.Next(0, 2) == 0)
             {
                 foods.Add(Food.Nuts);
             }

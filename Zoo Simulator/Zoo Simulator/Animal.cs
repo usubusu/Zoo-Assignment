@@ -13,9 +13,10 @@ namespace Zoo_Simulator
         protected int hunger;
         protected Mood mood;
         public HashSet<Food> foods = new HashSet<Food> { };
-        protected string[] possibleNames = new string[] { "Heath", "Sven", "DaBaby", "Slungus" };
-        protected bool docile;
-        protected Random rng = new Random();
+        protected string[] possibleNames = new string[] { "Heath", "Sven", "DaBaby", "Slungus", "Princess", "Kumala", "Gort", "Quandale Dingle", "Heinz Roasted Garlic Ketchup", "Vinegar", "Gimbus, the Destroyer of many" };
+        public bool docile;
+        protected static Random rng = new Random();
+        protected string type;
         #endregion
 
 
@@ -23,13 +24,13 @@ namespace Zoo_Simulator
         public abstract void SetDiet();
         public void GenerateAnimal()
         {
-            name = possibleNames[rng.Next(0, 4)];
+            name = possibleNames[rng.Next(0, 11)];
             hunger = rng.Next(20, 100);
             SetDiet();
         }
         public string GetName()
         {
-            Console.WriteLine("name: " + name);
+            Console.WriteLine(type + ": " + name);
             return name;
         }
         public int GetHunger()
@@ -63,7 +64,7 @@ namespace Zoo_Simulator
             {
                 mood = Mood.Enraged;
             }
-            Console.WriteLine("mood: " + mood);
+            Console.WriteLine("Mood: " + mood);
         }
         public void UpdateHunger()
         {
@@ -74,6 +75,17 @@ namespace Zoo_Simulator
             }
             Console.WriteLine(hunger);
             CalculateMood();
+        }
+        public void Eat()
+        {
+            hunger += rng.Next(30, 50);
+            if (hunger > 100)
+            {
+                hunger = 100;
+            }
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine(name + " has eaten.");
+            Console.ResetColor();
         }
     }
 }

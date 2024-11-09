@@ -1,17 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\",
+  "WorkspaceRootPath": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|c:\\main workspace\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|c:\\hdd placeholder\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|solutionrelative:zoo simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|c:\\main workspace\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator\\capybara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|c:\\hdd placeholder\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator\\animalpen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|solutionrelative:zoo simulator\\animalpen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|c:\\hdd placeholder\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator\\zookeeper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|solutionrelative:zoo simulator\\zookeeper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|c:\\hdd placeholder\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator\\worm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|solutionrelative:zoo simulator\\worm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|c:\\hdd placeholder\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator\\velociraptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|solutionrelative:zoo simulator\\velociraptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|c:\\hdd placeholder\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator\\capybara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|solutionrelative:zoo simulator\\capybara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|c:\\main workspace\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\zoo simulator\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{222E1720-156B-4176-B33C-F59ED7F04696}|Zoo Simulator\\Zoo Simulator.csproj|solutionrelative:zoo simulator\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,43 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Capybara.cs",
-              "DocumentMoniker": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Capybara.cs",
-              "RelativeDocumentMoniker": "Zoo Simulator\\Capybara.cs",
-              "ToolTip": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Capybara.cs",
-              "RelativeToolTip": "Zoo Simulator\\Capybara.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ZooKeeper.cs",
+              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\ZooKeeper.cs",
+              "RelativeDocumentMoniker": "Zoo Simulator\\ZooKeeper.cs",
+              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\ZooKeeper.cs",
+              "RelativeToolTip": "Zoo Simulator\\ZooKeeper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T10:22:55.324Z",
+              "WhenOpened": "2024-11-09T20:32:42.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Worm.cs",
+              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Worm.cs",
+              "RelativeDocumentMoniker": "Zoo Simulator\\Worm.cs",
+              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Worm.cs",
+              "RelativeToolTip": "Zoo Simulator\\Worm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:46:18.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Velociraptor.cs",
+              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Velociraptor.cs",
+              "RelativeDocumentMoniker": "Zoo Simulator\\Velociraptor.cs",
+              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Velociraptor.cs",
+              "RelativeToolTip": "Zoo Simulator\\Velociraptor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:05:03.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Capybara.cs",
+              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Capybara.cs",
+              "RelativeDocumentMoniker": "Zoo Simulator\\Capybara.cs",
+              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Capybara.cs",
+              "RelativeToolTip": "Zoo Simulator\\Capybara.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:04:11.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Animal.cs",
-              "DocumentMoniker": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Animal.cs",
+              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Animal.cs",
               "RelativeDocumentMoniker": "Zoo Simulator\\Animal.cs",
-              "ToolTip": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Animal.cs",
+              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Animal.cs",
               "RelativeToolTip": "Zoo Simulator\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwE0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T09:34:07.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimalPen.cs",
+              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\AnimalPen.cs",
+              "RelativeDocumentMoniker": "Zoo Simulator\\AnimalPen.cs",
+              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\AnimalPen.cs",
+              "RelativeToolTip": "Zoo Simulator\\AnimalPen.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:30:24.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Program.cs",
+              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Program.cs",
               "RelativeDocumentMoniker": "Zoo Simulator\\Program.cs",
-              "ToolTip": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Program.cs",
+              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator\\Program.cs",
               "RelativeToolTip": "Zoo Simulator\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAlwBIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T09:27:12.28Z",
               "EditorCaption": ""
