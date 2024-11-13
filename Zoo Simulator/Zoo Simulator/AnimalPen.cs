@@ -6,20 +6,16 @@ using System.Threading.Tasks;
 
 namespace Zoo_Simulator
 {
-    internal class AnimalPen
+    public class AnimalPen
     {
         public List<Animal> animals = new List<Animal>();
         private bool docileStatus;
         public string cageName;
 
-
         public AnimalPen(string name)
         {
             cageName = name;
         }
-
-
-
         public void GetAnimals()
         {
             Console.WriteLine(); Console.ForegroundColor = ConsoleColor.Green;
@@ -41,9 +37,6 @@ namespace Zoo_Simulator
                 Console.WriteLine("---------------");
             }
         }
-
-
-
         public void AddAnimal(Animal animal)
         {
             //Console.WriteLine("Attempting to add " + animal + ". Current list count: " + animals.Count);
@@ -68,9 +61,6 @@ namespace Zoo_Simulator
                 Console.WriteLine("Couldn't add " + animal + ". They would eat each other!");
             }
         }
-
-
-
         public void RemoveAnimal(int animalNum)
         {
             if (!(animalNum >= animals.Count))

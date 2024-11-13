@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zoo_Simulator
 {
-    internal abstract class Animal
+    public abstract class Animal
     {
         #region Variables
         protected string name;
@@ -19,15 +19,12 @@ namespace Zoo_Simulator
         protected string type;
         #endregion
 
-
-
         public abstract void SetDiet();
         public void GenerateAnimal()
         {
             name = possibleNames[rng.Next(0, 11)];
             hunger = rng.Next(20, 100);
             SetDiet();
-            Program.allAnimals.Add(this);
         }
         public string GetName()
         {
