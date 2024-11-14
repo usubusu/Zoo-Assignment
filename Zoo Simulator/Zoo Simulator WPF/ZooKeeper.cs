@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zoo_Simulator
 {
-    public class ZooKeeper
+    internal class ZooKeeper
     {
         public string name;
         private string[] possibleNames = new string[] { "Jørgen", "Garen from League of Legends", "Uncle farmer Ben", "Jarold", "Uffe", "Theis", "Jesus Christ the 2nd", "Jane", "Gwen", "Alex"};

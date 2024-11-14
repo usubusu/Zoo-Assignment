@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo Simulator", "Zoo Simulator\Zoo Simulator.csproj", "{222E1720-156B-4176-B33C-F59ED7F04696}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo Simulator WPF", "Zoo Simulator WPF\Zoo Simulator WPF.csproj", "{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{222E1720-156B-4176-B33C-F59ED7F04696}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{222E1720-156B-4176-B33C-F59ED7F04696}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{222E1720-156B-4176-B33C-F59ED7F04696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

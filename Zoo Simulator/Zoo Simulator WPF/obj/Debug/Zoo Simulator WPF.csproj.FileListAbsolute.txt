@@ -1,0 +1,15 @@
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\obj\Debug\Zoo Simulator WPF.csproj.AssemblyReference.cache
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\obj\Debug\MainWindow.g.cs
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\obj\Debug\App.g.cs
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\obj\Debug\Zoo Simulator WPF_MarkupCompile.cache
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\obj\Debug\Zoo Simulator WPF_MarkupCompile.lref
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\bin\Debug\Zoo Simulator WPF.exe.config
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\bin\Debug\Zoo Simulator WPF.exe
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\bin\Debug\Zoo Simulator WPF.pdb
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\obj\Debug\MainWindow.baml
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\obj\Debug\Zoo Simulator WPF.g.resources
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\obj\Debug\Zoo_Simulator_WPF.Properties.Resources.resources
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\obj\Debug\Zoo Simulator WPF.csproj.GenerateResource.cache
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\obj\Debug\Zoo Simulator WPF.csproj.CoreCompileInputs.cache
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\obj\Debug\Zoo Simulator WPF.exe
+C:\HDD Placeholder\Files\Repos\Zoo-Assignment\Zoo Simulator\Zoo Simulator WPF\obj\Debug\Zoo Simulator WPF.pdb

@@ -9,14 +9,15 @@ namespace Zoo_Simulator
     public abstract class Animal
     {
         #region Variables
-        public string name;
+        protected string name;
         protected int hunger;
         protected Mood mood;
         public HashSet<Food> foods = new HashSet<Food> { };
         protected string[] possibleNames = new string[] { "Heath", "Sven", "DaBaby", "Slungus", "Princess", "Kumala", "Gort", "Quandale Dingle", "Heinz Roasted Garlic Ketchup", "Vinegar", "Gimbus, the Destroyer of many" };
         public bool docile;
         protected static Random rng = new Random();
-        public string type;
+        protected string type;
+        public int ID;
         #endregion
 
         public abstract void SetDiet();
