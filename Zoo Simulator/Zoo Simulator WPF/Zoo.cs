@@ -54,7 +54,10 @@ namespace Zoo_Simulator
         }
         public static void AddToCage(AnimalPen cage, Animal animal)
         {
-            cage.AddAnimal(animal);
+            if (!Zoo.CheckForAnimal(cage, animal))
+            {
+                cage.AddAnimal(animal);
+            }
         }
         public static void NextDay()
         {
@@ -62,6 +65,17 @@ namespace Zoo_Simulator
             {
                 animal.UpdateHunger();
             }
+        }
+        public static bool CheckForAnimal(AnimalPen cage, Animal animal)
+        {
+            foreach (Animal checkAnimal in cage.animals)
+            {
+                if (checkAnimal == animal)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

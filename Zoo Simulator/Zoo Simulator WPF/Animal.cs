@@ -89,5 +89,9 @@ namespace Zoo_Simulator
             Console.WriteLine(name + " has eaten.");
             Console.ResetColor();
         }
+        public override string ToString()
+        {
+            return $"{type} #{ID}; {name}";
+        }
     }
 }

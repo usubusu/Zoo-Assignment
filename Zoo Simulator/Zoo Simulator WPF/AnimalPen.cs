@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Zoo_Simulator
 {
@@ -11,6 +12,7 @@ namespace Zoo_Simulator
         public List<Animal> animals = new List<Animal>();
         private bool docileStatus;
         public string cageName;
+        private List<Animal> animalsToAdd = new List<Animal>();
 
         public AnimalPen(string name)
         {
@@ -39,26 +41,25 @@ namespace Zoo_Simulator
         }
         public void AddAnimal(Animal animal)
         {
-            //Console.WriteLine("Attempting to add " + animal + ". Current list count: " + animals.Count);
             if (animals.Count == 0)
             {
                 animals.Add(animal);
                 docileStatus = animal.docile;
-                Console.WriteLine("Succesfully added " + animal + " to " + cageName + ". Now there are " + animals.Count + " animals in the cage.");
             }
-            else if (animal.docile && docileStatus)
+            else 
             {
-                animals.Add(animal);
-                Console.WriteLine("Succesfully added " + animal + " to " + cageName + ". Now there are " + animals.Count + " animals in the cage.");
-            }
-            else if (!animal.docile && !docileStatus)
-            {
-                animals.Add(animal);
-                Console.WriteLine("Succesfully added " + animal + " to " + cageName + ". Now there are " + animals.Count + " animals in the cage.");
-            }
-            else
-            {
-                Console.WriteLine("Couldn't add " + animal + ". They would eat each other!");
+                if (animal.docile && docileStatus)
+                {
+                    animals.Add(animal);
+                }
+                else if (!animal.docile && !docileStatus)
+                {
+                    animals.Add(animal);
+                }
+                else
+                {
+                    Console.WriteLine("Couldn't add " + animal + ". They would eat each other!");
+                }
             }
         }
         public void RemoveAnimal(int animalNum)
@@ -71,6 +72,10 @@ namespace Zoo_Simulator
             {
                 Console.WriteLine("Failed to remove animal: Selection out of range.");
             }
+        }
+        public override string ToString()
+        {
+            return $"{cageName}";
         }
     }
 }

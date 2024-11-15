@@ -59,7 +59,7 @@ namespace Zoo_Simulator_WPF
             All_Animals.Items.Clear();
             foreach (Animal item in Zoo.allAnimals)
             {
-                All_Animals.Items.Add(item.GetAnimalType() + " #" + item.ID + "; " + item.GetName());
+                All_Animals.Items.Add(item);
             }
         }
         private void UpdateCageList()
@@ -67,13 +67,31 @@ namespace Zoo_Simulator_WPF
             All_Cages.Items.Clear();
             foreach (AnimalPen cage in Zoo.cages)
             {
-                All_Cages.Items.Add(cage.cageName);
+                All_Cages.Items.Add(cage);
             }
         }
 
         private void All_Animals_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            SelectionsList.Items.Add("placeholder");
+            bool check = false;
+            if (SelectionsList.Items.Count != 0)
+            {
+                foreach (object obj in SelectionsList.Items)
+                {
+                    if (SelectionsList.SelectedItem == All_Animals.SelectedItem)
+                    {
+                        check = true;
+                    }
+                }
+                if (!check)
+                {
+                    SelectionsList.Items.Add((Animal)All_Animals.SelectedItem);
+                }
+            }
+            else
+            {
+                SelectionsList.Items.Add((Animal)All_Animals.SelectedItem);
+            }
         }
 
         private void ClearSelection_Click(object sender, RoutedEventArgs e)
@@ -88,6 +106,32 @@ namespace Zoo_Simulator_WPF
                 Zoo.NewCage(InputBox.Text);
             }
             UpdateCageList();
+        }
+
+        private void AddAnimalsToCage_Click(object sender, RoutedEventArgs e)
+        {
+            if (All_Cages.SelectedIndex != -1)
+            {
+                foreach (Animal animal in SelectionsList.Items)
+                {
+                    Zoo.AddToCage((AnimalPen)All_Cages.SelectedItem, animal);
+                }
+                Cage_Animals.Items.Refresh();
+            }
+        }
+
+        private void All_Cages_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Cage_Animals.Items.Clear();
+            if (All_Cages.SelectedIndex != -1)
+            {
+                foreach (Animal animal in (All_Cages.SelectedItem as AnimalPen).animals)
+                {
+                    Cage_Animals.Items.Add(animal);
+                }
+                //Cage_Animals.ItemsSource = (All_Cages.SelectedItem as AnimalPen).animals;
+                Cage_Animals.Items.Refresh();
+            }
         }
     }
 }

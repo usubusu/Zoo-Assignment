@@ -1,33 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\",
+  "WorkspaceRootPath": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|c:\\hdd placeholder\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|solutionrelative:zoo simulator wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|c:\\main workspace\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator wpf\\animalpen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|solutionrelative:zoo simulator wpf\\animalpen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|c:\\hdd placeholder\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|solutionrelative:zoo simulator wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|c:\\hdd placeholder\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator wpf\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|solutionrelative:zoo simulator wpf\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|c:\\hdd placeholder\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator wpf\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\zoo simulator wpf\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|solutionrelative:zoo simulator wpf\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|c:\\hdd placeholder\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator wpf\\worm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\zoo simulator wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|solutionrelative:zoo simulator wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|c:\\main workspace\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|solutionrelative:zoo simulator wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\zoo simulator wpf\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|solutionrelative:zoo simulator wpf\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\zoo simulator wpf\\worm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|solutionrelative:zoo simulator wpf\\worm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|c:\\hdd placeholder\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator wpf\\capybara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\zoo simulator wpf\\capybara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|solutionrelative:zoo simulator wpf\\capybara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|c:\\hdd placeholder\\files\\repos\\zoo-assignment\\zoo simulator\\zoo simulator wpf\\velociraptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\zoo simulator wpf\\velociraptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA3B44AB-C0DC-4BEA-AE9D-8E7061FDC5F5}|Zoo Simulator WPF\\Zoo Simulator WPF.csproj|solutionrelative:zoo simulator wpf\\velociraptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,41 +42,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnimalPen.cs",
+              "DocumentMoniker": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\AnimalPen.cs",
+              "RelativeDocumentMoniker": "Zoo Simulator WPF\\AnimalPen.cs",
+              "ToolTip": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\AnimalPen.cs",
+              "RelativeToolTip": "Zoo Simulator WPF\\AnimalPen.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwDAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T09:27:30.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Zoo Simulator WPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\MainWindow.xaml",
+              "RelativeToolTip": "Zoo Simulator WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T16:05:16.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Zoo Simulator WPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Zoo Simulator WPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAQwHsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T16:05:16.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Zoo.cs",
-              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Zoo.cs",
+              "DocumentMoniker": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Zoo.cs",
               "RelativeDocumentMoniker": "Zoo Simulator WPF\\Zoo.cs",
-              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Zoo.cs",
+              "ToolTip": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Zoo.cs",
               "RelativeToolTip": "Zoo Simulator WPF\\Zoo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAADgvzsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T17:35:13.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Worm.cs",
-              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Worm.cs",
-              "RelativeDocumentMoniker": "Zoo Simulator WPF\\Worm.cs",
-              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Worm.cs",
-              "RelativeToolTip": "Zoo Simulator WPF\\Worm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:34:44.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Velociraptor.cs",
-              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Velociraptor.cs",
+              "DocumentMoniker": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Velociraptor.cs",
               "RelativeDocumentMoniker": "Zoo Simulator WPF\\Velociraptor.cs",
-              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Velociraptor.cs",
+              "ToolTip": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Velociraptor.cs",
               "RelativeToolTip": "Zoo Simulator WPF\\Velociraptor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -81,11 +110,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Capybara.cs",
-              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Capybara.cs",
+              "DocumentMoniker": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Capybara.cs",
               "RelativeDocumentMoniker": "Zoo Simulator WPF\\Capybara.cs",
-              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Capybara.cs",
+              "ToolTip": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Capybara.cs",
               "RelativeToolTip": "Zoo Simulator WPF\\Capybara.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -94,40 +123,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Animal.cs",
-              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Animal.cs",
+              "DocumentMoniker": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Animal.cs",
               "RelativeDocumentMoniker": "Zoo Simulator WPF\\Animal.cs",
-              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Animal.cs",
+              "ToolTip": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Animal.cs",
               "RelativeToolTip": "Zoo Simulator WPF\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T17:34:39.002Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Zoo Simulator WPF\\MainWindow.xaml",
-              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\MainWindow.xaml",
-              "RelativeToolTip": "Zoo Simulator WPF\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T16:05:16.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Zoo Simulator WPF\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\HDD Placeholder\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Zoo Simulator WPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Worm.cs",
+              "DocumentMoniker": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Worm.cs",
+              "RelativeDocumentMoniker": "Zoo Simulator WPF\\Worm.cs",
+              "ToolTip": "C:\\Main Workspace\\Files\\Repos\\Zoo-Assignment\\Zoo Simulator\\Zoo Simulator WPF\\Worm.cs",
+              "RelativeToolTip": "Zoo Simulator WPF\\Worm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T16:05:16.311Z",
+              "WhenOpened": "2024-11-14T17:34:44.288Z",
               "EditorCaption": ""
             }
           ]

@@ -11,17 +11,18 @@
         <Rectangle HorizontalAlignment="Left" Height="130" Stroke="Black" VerticalAlignment="Top" Width="400"/>
         <Rectangle HorizontalAlignment="Left" Height="130" Stroke="Black" VerticalAlignment="Top" Width="400" Margin="400,0,0,0"/>
         <TextBox x:Name="InputBox" HorizontalAlignment="Center" Margin="0,130,0,0" TextWrapping="Wrap" Text="Input Box" VerticalAlignment="Top" Width="112" Height="34"/>
-        <ListBox x:Name="All_Cages" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="192,130,517,169"/>
-        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="192,265,517,0"/>
+        <ListBox x:Name="All_Cages" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="192,130,517,169" SelectionChanged="All_Cages_SelectionChanged"/>
+        <ListBox x:Name="Cage_Animals" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="192,265,483,0"/>
         <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="679,130,0,0"/>
         <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="579,198,121,0"/>
         <Rectangle HorizontalAlignment="Left" Height="68" Margin="579,130,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
         <Button x:Name="Add_Capybara" Content="Add Capybara" HorizontalAlignment="Left" Margin="405,105,0,0" VerticalAlignment="Top" Click="Button_Click_AddCapybara"/>
         <Button x:Name="Add_Velociraptor" Content="Add Velociraptor" HorizontalAlignment="Left" Margin="405,80,0,0" VerticalAlignment="Top" Click="Button_Click_AddVelociraptor"/>
         <Button x:Name="Add_Worm" Content="Add Worm" HorizontalAlignment="Left" Margin="405,55,0,0" VerticalAlignment="Top" Click="Button_Click_AddWorm"/>
-        <ListBox x:Name="SelectionsList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="283,316,347,0"/>
-        <Button x:Name="ClearSelection" Content="Clear" HorizontalAlignment="Left" Margin="453,375,0,0" VerticalAlignment="Top" Click="ClearSelection_Click"/>
+        <ListBox x:Name="SelectionsList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="317,316,288,0"/>
+        <Button x:Name="ClearSelection" Content="Clear" HorizontalAlignment="Left" Margin="512,375,0,0" VerticalAlignment="Top" Click="ClearSelection_Click"/>
         <Button x:Name="AddCage" Content="Add Cage" HorizontalAlignment="Left" Margin="530,105,0,0" VerticalAlignment="Top" Click="AddCage_Click"/>
+        <Button x:Name="AddAnimalsToCage" Content="Add Animals To Cage" HorizontalAlignment="Left" Margin="512,80,0,0" VerticalAlignment="Top" Click="AddAnimalsToCage_Click"/>
 
     </Grid>
 </Window>
