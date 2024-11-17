@@ -62,16 +62,9 @@ namespace Zoo_Simulator
                 }
             }
         }
-        public void RemoveAnimal(int animalNum)
+        public void RemoveAnimal(Animal animal)
         {
-            if (!(animalNum >= animals.Count))
-            {
-                animals.RemoveAt(animalNum);
-            }
-            else
-            {
-                Console.WriteLine("Failed to remove animal: Selection out of range.");
-            }
+            animals.Remove(animal);
         }
         public override string ToString()
         {

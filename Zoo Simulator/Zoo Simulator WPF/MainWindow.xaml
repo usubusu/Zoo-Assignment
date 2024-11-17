@@ -7,22 +7,32 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="All_Animals" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,130,608,0" SelectionChanged="All_Animals_SelectionChanged"/>
+        <ListBox x:Name="All_Animals" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,130,582,0" SelectionChanged="All_Animals_SelectionChanged"/>
         <Rectangle HorizontalAlignment="Left" Height="130" Stroke="Black" VerticalAlignment="Top" Width="400"/>
         <Rectangle HorizontalAlignment="Left" Height="130" Stroke="Black" VerticalAlignment="Top" Width="400" Margin="400,0,0,0"/>
-        <TextBox x:Name="InputBox" HorizontalAlignment="Center" Margin="0,130,0,0" TextWrapping="Wrap" Text="Input Box" VerticalAlignment="Top" Width="112" Height="34"/>
-        <ListBox x:Name="All_Cages" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="192,130,517,169" SelectionChanged="All_Cages_SelectionChanged"/>
-        <ListBox x:Name="Cage_Animals" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="192,265,483,0"/>
-        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="679,130,0,0"/>
-        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="579,198,121,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="68" Margin="579,130,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="InputBox" HorizontalAlignment="Left" Margin="405,130,0,0" TextWrapping="Wrap" Text="Input Box" VerticalAlignment="Top" Width="112" Height="34"/>
+        <ListBox x:Name="All_Cages" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="201,130,507,169" SelectionChanged="All_Cages_SelectionChanged"/>
+        <ListBox x:Name="Cage_Animals" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="201,240,462,0"/>
+        <ListBox x:Name="ZooKeeperList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="679,130,0,0"/>
         <Button x:Name="Add_Capybara" Content="Add Capybara" HorizontalAlignment="Left" Margin="405,105,0,0" VerticalAlignment="Top" Click="Button_Click_AddCapybara"/>
         <Button x:Name="Add_Velociraptor" Content="Add Velociraptor" HorizontalAlignment="Left" Margin="405,80,0,0" VerticalAlignment="Top" Click="Button_Click_AddVelociraptor"/>
         <Button x:Name="Add_Worm" Content="Add Worm" HorizontalAlignment="Left" Margin="405,55,0,0" VerticalAlignment="Top" Click="Button_Click_AddWorm"/>
-        <ListBox x:Name="SelectionsList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="317,316,288,0"/>
+        <ListBox x:Name="SelectionsList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="317,282,288,0"/>
         <Button x:Name="ClearSelection" Content="Clear" HorizontalAlignment="Left" Margin="512,375,0,0" VerticalAlignment="Top" Click="ClearSelection_Click"/>
         <Button x:Name="AddCage" Content="Add Cage" HorizontalAlignment="Left" Margin="530,105,0,0" VerticalAlignment="Top" Click="AddCage_Click"/>
         <Button x:Name="AddAnimalsToCage" Content="Add Animals To Cage" HorizontalAlignment="Left" Margin="512,80,0,0" VerticalAlignment="Top" Click="AddAnimalsToCage_Click"/>
+        <Button x:Name="NewZooKeeper" Content="New Zookeeper" HorizontalAlignment="Left" Margin="514,55,0,0" VerticalAlignment="Top" Click="NewZooKeeper_Click"/>
+        <Rectangle HorizontalAlignment="Left" Height="236" Margin="579,198,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="FeedCage" Content="Feed Cage" HorizontalAlignment="Left" Margin="599,217,0,0" VerticalAlignment="Top" Click="FeedCage_Click"/>
+        <Button x:Name="RemoveAnimal" Content="Remove Selected Animals" HorizontalAlignment="Left" Margin="405,30,0,0" VerticalAlignment="Top" Click="RemoveAnimal_Click"/>
+        <Button x:Name="NextDay" Content="Next Day" HorizontalAlignment="Left" Margin="609,105,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.48,0.688" Click="NextDay_Click"/>
+        <ListBox x:Name="Foods" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="579,265,107,0"/>
+        <Label x:Name="AllAnimalsLabel" Content="All Animals" HorizontalAlignment="Left" Margin="27,385,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="CageAnimalsLabel" Content="Cage Animals" HorizontalAlignment="Left" Margin="201,385,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="SelectionsLabel" Content="Selections" HorizontalAlignment="Center" Margin="0,385,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="AnimalStatsLabel" Content="Animal Info" HorizontalAlignment="Left" Margin="147,0,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ZooKeepersLabel" Content="Zoo Keepers" HorizontalAlignment="Left" Margin="698,385,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="CagesLabel" Content="Cages" HorizontalAlignment="Left" Margin="279,129,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

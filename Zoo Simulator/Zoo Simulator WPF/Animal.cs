@@ -85,13 +85,10 @@ namespace Zoo_Simulator
             {
                 hunger = 100;
             }
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine(name + " has eaten.");
-            Console.ResetColor();
         }
         public override string ToString()
         {
-            return $"{type} #{ID}; {name}";
+            return $"{type} #{ID}; {name} - {hunger}";
         }
     }
 }

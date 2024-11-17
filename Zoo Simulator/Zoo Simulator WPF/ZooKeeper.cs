@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zoo_Simulator
 {
-    internal class ZooKeeper
+    public class ZooKeeper
     {
         public string name;
         private string[] possibleNames = new string[] { "Jørgen", "Garen from League of Legends", "Uncle farmer Ben", "Jarold", "Uffe", "Theis", "Jesus Christ the 2nd", "Jane", "Gwen", "Alex"};
@@ -26,6 +26,10 @@ namespace Zoo_Simulator
                     cageAnimal.Eat();
                 }
             }
+        }
+        public override string ToString()
+        {
+            return $"{name}";
         }
     }
 }

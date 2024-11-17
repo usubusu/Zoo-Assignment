@@ -16,6 +16,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -34,6 +35,11 @@ namespace Zoo_Simulator_WPF
             InitializeComponent();
             Zoo.NewAnimal(AnimalType.Capybara);
             UpdateAnimalList();
+            Foods.Items.Add(Food.Apple);
+            Foods.Items.Add(Food.Orange);
+            Foods.Items.Add(Food.Leaves);
+            Foods.Items.Add(Food.Nuts);
+            Foods.Items.Add(Food.Meat);
         }
 
         private void Button_Click_AddCapybara(object sender, RoutedEventArgs e)
@@ -116,11 +122,16 @@ namespace Zoo_Simulator_WPF
                 {
                     Zoo.AddToCage((AnimalPen)All_Cages.SelectedItem, animal);
                 }
-                Cage_Animals.Items.Refresh();
             }
+            UpdateSelectedCage();
+            SelectionsList.Items.Clear();
         }
 
         private void All_Cages_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            UpdateSelectedCage();
+        }
+        private void UpdateSelectedCage()
         {
             Cage_Animals.Items.Clear();
             if (All_Cages.SelectedIndex != -1)
@@ -129,9 +140,62 @@ namespace Zoo_Simulator_WPF
                 {
                     Cage_Animals.Items.Add(animal);
                 }
-                //Cage_Animals.ItemsSource = (All_Cages.SelectedItem as AnimalPen).animals;
                 Cage_Animals.Items.Refresh();
             }
+        }
+
+        private void NewZooKeeper_Click(object sender, RoutedEventArgs e)
+        {
+            Zoo.NewZooKeeper();
+            UpdateZooKeeperList();
+        }
+        private void UpdateZooKeeperList()
+        {
+            ZooKeeperList.Items.Clear();
+            foreach (ZooKeeper keeper in Zoo.zooKeepers)
+            {
+                ZooKeeperList.Items.Add(keeper);
+            }
+        }
+
+        private void FeedCage_Click(object sender, RoutedEventArgs e)
+        {
+            if (All_Cages.SelectedIndex != -1)
+            {
+                if (ZooKeeperList.SelectedIndex != -1)
+                {
+                    if (Foods.SelectedIndex != -1)
+                    {
+                        ((ZooKeeper)ZooKeeperList.SelectedItem).FeedCage(((Food)Foods.SelectedItem), ((AnimalPen)All_Cages.SelectedItem));
+                        UpdateCageList();
+                        UpdateAnimalList();
+                    }
+                }
+            }
+           
+        }
+        private void RemoveAnimal_Click(object sender, RoutedEventArgs e)
+        {
+            List<Animal> remove = new List<Animal>();
+            foreach (object obj in SelectionsList.Items)
+            {
+                remove.Add((Animal)obj);
+            }
+            foreach (Animal animal in remove)
+            {
+                Zoo.RemoveAnimal((Animal)animal);
+            }
+            UpdateAnimalList();
+            UpdateCageList();
+            SelectionsList.Items.Clear();
+        }
+
+        private void NextDay_Click(object sender, RoutedEventArgs e)
+        {
+            Zoo.NextDay();
+            UpdateAnimalList();
+            UpdateCageList();
+            SelectionsList.Items.Clear();
         }
     }
 }

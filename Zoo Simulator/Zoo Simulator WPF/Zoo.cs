@@ -8,7 +8,7 @@ namespace Zoo_Simulator
 {
     public static class Zoo
     {
-        private static List<ZooKeeper> zooKeepers = new List<ZooKeeper>();
+        public static List<ZooKeeper> zooKeepers = new List<ZooKeeper>();
         public static List<Animal> allAnimals = new List<Animal>();
         public static List<AnimalPen> cages = new List<AnimalPen>();
         private static int IDCount;
@@ -76,6 +76,14 @@ namespace Zoo_Simulator
                 }
             }
             return false;
+        }
+        public static void RemoveAnimal(Animal animal)
+        {
+            Zoo.allAnimals.Remove(animal);
+            foreach (AnimalPen cage in cages)
+            {
+                cage.RemoveAnimal(animal);
+            }
         }
     }
 }
