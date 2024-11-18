@@ -40,6 +40,11 @@ namespace Zoo_Simulator_WPF
             Foods.Items.Add(Food.Leaves);
             Foods.Items.Add(Food.Nuts);
             Foods.Items.Add(Food.Meat);
+            InfoHeaders.Items.Add("Name:");
+            InfoHeaders.Items.Add("Type:");
+            InfoHeaders.Items.Add("Hunger:");
+            InfoHeaders.Items.Add("Mood:");
+            InfoHeaders.Items.Add("ID:");
         }
 
         private void Button_Click_AddCapybara(object sender, RoutedEventArgs e)
@@ -84,7 +89,7 @@ namespace Zoo_Simulator_WPF
             {
                 foreach (object obj in SelectionsList.Items)
                 {
-                    if (SelectionsList.SelectedItem == All_Animals.SelectedItem)
+                    if (obj == All_Animals.SelectedItem)
                     {
                         check = true;
                     }
@@ -93,6 +98,7 @@ namespace Zoo_Simulator_WPF
                 {
                     SelectionsList.Items.Add((Animal)All_Animals.SelectedItem);
                 }
+                UpdateAnimalInfo();
             }
             else
             {
@@ -196,6 +202,19 @@ namespace Zoo_Simulator_WPF
             UpdateAnimalList();
             UpdateCageList();
             SelectionsList.Items.Clear();
+        }
+        
+        private void UpdateAnimalInfo()
+        {
+            Info.Items.Clear();
+            if (!(All_Animals.SelectedIndex == -1))
+            {
+                Info.Items.Add(((Animal)All_Animals.SelectedItem).GetName());
+                Info.Items.Add(((Animal)All_Animals.SelectedItem).GetAnimalType());
+                Info.Items.Add(((Animal)All_Animals.SelectedItem).GetHunger());
+                Info.Items.Add(((Animal)All_Animals.SelectedItem).GetMood());
+                Info.Items.Add(((Animal)All_Animals.SelectedItem).ID);
+            }
         }
     }
 }

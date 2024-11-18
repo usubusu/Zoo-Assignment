@@ -26,6 +26,7 @@ namespace Zoo_Simulator
             name = possibleNames[rng.Next(0, 11)];
             hunger = rng.Next(20, 100);
             SetDiet();
+            CalculateMood();
         }
         public string GetName()
         {
@@ -34,6 +35,10 @@ namespace Zoo_Simulator
         public string GetAnimalType()
         {
             return type;
+        }
+        public string GetMood()
+        {
+            return mood.ToString();
         }
         public int GetHunger()
         {
@@ -85,10 +90,11 @@ namespace Zoo_Simulator
             {
                 hunger = 100;
             }
+            CalculateMood();
         }
         public override string ToString()
         {
-            return $"{type} #{ID}; {name} - {hunger}";
+            return $"{type}: {name}";
         }
     }
 }
