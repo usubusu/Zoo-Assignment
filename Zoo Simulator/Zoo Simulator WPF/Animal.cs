@@ -42,9 +42,11 @@ namespace Zoo_Simulator
         }
         public int GetHunger()
         {
-            Console.WriteLine("hunger: " + hunger);
             return hunger;
         }
+        /// <summary>
+        /// Calculates which mood the animal should have based on its hunger level.
+        /// </summary>
         public void CalculateMood()
         {
             if (hunger >= 95)
@@ -73,6 +75,9 @@ namespace Zoo_Simulator
             }
             Console.WriteLine("Mood: " + mood);
         }
+        /// <summary>
+        /// Reduces the animals hunger by 10-30 (more hungry) and calculates mood.
+        /// </summary>
         public void UpdateHunger()
         {
             hunger -= rng.Next(10, 30);
@@ -83,6 +88,9 @@ namespace Zoo_Simulator
             Console.WriteLine(hunger);
             CalculateMood();
         }
+        /// <summary>
+        /// Increases the animals hunger by 30-50 (less hungry) and calculates mood.
+        /// </summary>
         public void Eat()
         {
             hunger += rng.Next(30, 50);

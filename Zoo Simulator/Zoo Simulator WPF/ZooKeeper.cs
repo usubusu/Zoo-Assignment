@@ -16,6 +16,11 @@ namespace Zoo_Simulator
         {
             name = possibleNames[rng.Next(0, 10)];
         }
+        /// <summary>
+        /// Checks if all animals in a cage eat a given food, and feeds the ones that can.
+        /// </summary>
+        /// <param name="food">The food type to feed the animals.</param>
+        /// <param name="cage">The cage to feed.</param>
         public void FeedCage(Food food, AnimalPen cage)
         {
             Console.WriteLine("Feeding " + food + " to " + cage.cageName);

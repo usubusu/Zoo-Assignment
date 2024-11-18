@@ -46,7 +46,6 @@ namespace Zoo_Simulator_WPF
             InfoHeaders.Items.Add("Mood:");
             InfoHeaders.Items.Add("ID:");
         }
-
         private void Button_Click_AddCapybara(object sender, RoutedEventArgs e)
         {
             Zoo.NewAnimal(AnimalType.Capybara);
@@ -64,7 +63,9 @@ namespace Zoo_Simulator_WPF
             Zoo.NewAnimal(AnimalType.Worm);
             UpdateAnimalList();
         }
-        
+        /// <summary>
+        /// Updates the animal listbox to contain all animals in the zoo class.
+        /// </summary>
         private void UpdateAnimalList()
         {
             All_Animals.Items.Clear();
@@ -73,6 +74,9 @@ namespace Zoo_Simulator_WPF
                 All_Animals.Items.Add(item);
             }
         }
+        /// <summary>
+        /// Updates the cages listbox to contain all cages in the zoo class.
+        /// </summary>
         private void UpdateCageList()
         {
             All_Cages.Items.Clear();
@@ -81,7 +85,9 @@ namespace Zoo_Simulator_WPF
                 All_Cages.Items.Add(cage);
             }
         }
-
+        /// <summary>
+        /// Checks if the selected item in All_Animals already exists in SelectionsList, and adds it if not.
+        /// </summary>
         private void All_Animals_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             bool check = false;
@@ -105,12 +111,16 @@ namespace Zoo_Simulator_WPF
                 SelectionsList.Items.Add((Animal)All_Animals.SelectedItem);
             }
         }
-
+        /// <summary>
+        /// Clears the selection list.
+        /// </summary>
         private void ClearSelection_Click(object sender, RoutedEventArgs e)
         {
             SelectionsList.Items.Clear();
         }
-
+        /// <summary>
+        /// Calls for the zoo to create a new cage on click, using the inputbox text as the name.
+        /// </summary>
         private void AddCage_Click(object sender, RoutedEventArgs e)
         {
             if (InputBox.Text != null && InputBox.Text != "")
@@ -119,7 +129,9 @@ namespace Zoo_Simulator_WPF
             }
             UpdateCageList();
         }
-
+        /// <summary>
+        /// Takes the currently selected cage and adds all selected animals to it. Then clears selection list.
+        /// </summary>
         private void AddAnimalsToCage_Click(object sender, RoutedEventArgs e)
         {
             if (All_Cages.SelectedIndex != -1)
@@ -132,11 +144,13 @@ namespace Zoo_Simulator_WPF
             UpdateSelectedCage();
             SelectionsList.Items.Clear();
         }
-
         private void All_Cages_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             UpdateSelectedCage();
         }
+        /// <summary>
+        /// Clears the cage animals listbox and adds all the ones in the currently selected cage.
+        /// </summary>
         private void UpdateSelectedCage()
         {
             Cage_Animals.Items.Clear();
@@ -155,6 +169,9 @@ namespace Zoo_Simulator_WPF
             Zoo.NewZooKeeper();
             UpdateZooKeeperList();
         }
+        /// <summary>
+        /// Adds all zookeepers to the zookeeper listbox.
+        /// </summary>
         private void UpdateZooKeeperList()
         {
             ZooKeeperList.Items.Clear();
@@ -164,6 +181,9 @@ namespace Zoo_Simulator_WPF
             }
         }
 
+        /// <summary>
+        /// Takes the selected cage, selected zookeeper, and selected food type and passes it to the zookeeper to feed the animals.
+        /// </summary>
         private void FeedCage_Click(object sender, RoutedEventArgs e)
         {
             if (All_Cages.SelectedIndex != -1)
@@ -180,6 +200,9 @@ namespace Zoo_Simulator_WPF
             }
            
         }
+        /// <summary>
+        /// Removes the selected animals from the zoo and all cages, and updates all relevant lists.
+        /// </summary>
         private void RemoveAnimal_Click(object sender, RoutedEventArgs e)
         {
             List<Animal> remove = new List<Animal>();
@@ -195,7 +218,9 @@ namespace Zoo_Simulator_WPF
             UpdateCageList();
             SelectionsList.Items.Clear();
         }
-
+        /// <summary>
+        /// Calls Zoo's NextDay function and updates lists.
+        /// </summary>
         private void NextDay_Click(object sender, RoutedEventArgs e)
         {
             Zoo.NextDay();
@@ -203,7 +228,9 @@ namespace Zoo_Simulator_WPF
             UpdateCageList();
             SelectionsList.Items.Clear();
         }
-        
+        /// <summary>
+        /// Takes the last selected animal and displays info for it.
+        /// </summary>
         private void UpdateAnimalInfo()
         {
             Info.Items.Clear();
